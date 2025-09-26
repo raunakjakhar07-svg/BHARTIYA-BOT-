@@ -1,2 +1,0 @@
-# BHARTIYA-BOT-
-Best
