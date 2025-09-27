@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BHARATIYA BOT - Commands</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Commands | BHARTIYA BOT</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/script.js" defer></script>
 </head>
 <body>
-<nav>
-    <a href="index.html">Home</a>
-    <a href="commands.html">Commands</a>
-    <a href="about.html">About</a>
-    <a href="invite.html">Invite</a>
-</nav>
-<div class="container">
-    <h1>📜 Commands</h1>
-    <table>
-        <tr><th>Command</th><th>Description</th><th>Category</th></tr>
-        <tr><td>!ban @user</td><td>Ban a member</td><td>Moderation</td></tr>
-        <tr><td>!kick @user</td><td>Kick a member</td><td>Moderation</td></tr>
-        <tr><td>!balance</td><td>Check your coins</td><td>Economy</td></tr>
-        <tr><td>!shop</td><td>Show shop items</td><td>Economy</td></tr>
-        <tr><td>!meme</td><td>Sends a random meme</td><td>Fun</td></tr>
-        <tr><td>!joke</td><td>Sends a random joke</td><td>Fun</td></tr>
-        <tr><td>!ping</td><td>Bot response time</td><td>Utility</td></tr>
-        <tr><td>!help</td><td>Show help menu</td><td>Utility</td></tr>
-    </table>
-</div>
-<footer>© 2025 BHARATIYA BOT | Made by Raunak Jakhar | Support: raunakjakhar07@gmail.com</footer>
+  <nav>
+    <div class="logo">🇮🇳 BHARTIYA BOT</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="commands.html">Commands</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
+      <li><a href="support.html">Support</a></li>
+    </ul>
+  </nav>
+  <header>
+    <h1>Bot Commands</h1>
+    <input type="text" id="search" placeholder="Search commands...">
+  </header>
+  <section class="command-list">
+    <h2>Moderation</h2>
+    <div class="command">!ban [user] – Ban a user</div>
+    <div class="command">!kick [user] – Kick a user</div>
+    <div class="command">!mute [user] – Mute a user</div>
+    <h2>Economy</h2>
+    <div class="command">!balance – Check your balance</div>
+    <div class="command">!daily – Claim daily reward</div>
+    <h2>Utility</h2>
+    <div class="command">!afk [reason] – Set AFK status</div>
+    <div class="command">!ping – Check bot latency</div>
+  </section>
 </body>
 </html>
